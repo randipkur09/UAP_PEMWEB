@@ -1,8 +1,14 @@
+Kelompok 2 
+Anggota Kelompok :
+1. Muhammad Randi Putra Kurniawan 2317051009
+2. Fitria Nuraini 2317051021
+3. Dilvi Yola Ferlyanda 2317051035
+
 SIMDAL adalah singkatan dari Sistem Informasi Manajemen Sendal, yaitu sebuah aplikasi berbasis web yang dirancang untuk membantu dalam proses pencatatan, pengelolaan, dan pelaporan data sendal, khususnya dalam konteks gudang atau toko sendal. Aplikasi ini berjalan di alamat http://simdal.infinityfreeapp.com.
 
 Peran Pengguna: Admin & Staff Gudang
 Website ini memiliki dua peran utama dalam sistem:
-1.	Administrator : Memiliki hak akses penuh terhadap seluruh modul, bertugas untuk mengelola data master, termasuk: menambahkan/mengedit/menghapus data sendal, mengelola kategori dan supplier, melihat dan mencetak laporan transaksi, mengelola data pengguna/staff, dapat melihat seluruh aktivitas pada dashboard dan memastikan ketersediaan stok.
+1.	Admin : Memiliki hak akses penuh terhadap seluruh modul, bertugas untuk mengelola data master, termasuk: menambahkan/mengedit/menghapus data sendal, mengelola kategori dan supplier, melihat dan mencetak laporan transaksi, mengelola data pengguna/staff, dapat melihat seluruh aktivitas pada dashboard dan memastikan ketersediaan stok.
 2.	Staff Gudang : Bertugas melakukan input transaksi seperti barang masuk/keluar, bisa melihat data sendal, kategori, dan supplier, namun fitur terbatas dibanding administrator, tidak bisa mengakses modul manajemen pengguna, tampilan staff tidak menampilkan menu “Pengguna” di sidebar, tampilan admin memiliki akses ke fitur tersebut.
 
 Fitur-Fitur pada SIMDAL
@@ -36,9 +42,11 @@ Penutup
 Secara keseluruhan, SIMDAL adalah sistem yang sederhana namun bermanfaat besar dalam konteks manajemen gudang sendal. Dengan fitur-fitur yang tertata rapi, peran pengguna yang dibedakan, dan sistem pencatatan yang lengkap, website ini sangat cocok digunakan oleh bisnis kecil hingga menengah dalam mengelola inventaris produk alas kaki secara digital.
 
 Demo:
+- Sebagai Admin
 Username :  admin
 Password : password 
 
+- Sebagai Staff Gudang
 Username : staff
 Password : password
 
