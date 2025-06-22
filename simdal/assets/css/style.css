@@ -1,0 +1,95 @@
+/* Custom styles for SIMDAL */
+
+/* Login page */
+.login-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+/* Dashboard cards */
+.stats-card {
+  transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.table-data th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.table-data tbody tr:hover {
+  background-color: rgba(102, 126, 234, 0.05);
+}
+
+/* Form styles */
+.form-control:focus,
+.form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+}
+
+/* Button hover effects */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar active link indicator */
+.sidebar .nav-link.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: white;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Print styles */
+@media print {
+  .sidebar,
+  .navbar,
+  .btn-print,
+  .btn-back {
+    display: none !important;
+  }
+
+  .content-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .card {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .table {
+    font-size: 12px;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    min-height: auto;
+  }
+
+  .content-wrapper {
+    padding: 1rem !important;
+  }
+
+  .stats-card h3 {
+    font-size: 1.5rem;
+  }
+}
