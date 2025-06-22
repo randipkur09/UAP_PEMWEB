@@ -1,5 +1,4 @@
-Kelompok 2 
-Anggota Kelompok :
+Kelompok 2 :
 1. Muhammad Randi Putra Kurniawan 2317051009
 2. Fitria Nuraini 2317051021
 3. Dilvi Yola Ferlyanda 2317051035
@@ -42,11 +41,7 @@ Penutup
 Secara keseluruhan, SIMDAL adalah sistem yang sederhana namun bermanfaat besar dalam konteks manajemen gudang sendal. Dengan fitur-fitur yang tertata rapi, peran pengguna yang dibedakan, dan sistem pencatatan yang lengkap, website ini sangat cocok digunakan oleh bisnis kecil hingga menengah dalam mengelola inventaris produk alas kaki secara digital.
 
 Demo:
-- Sebagai Admin
-Username :  admin
-Password : password 
+- Sebagai Admin, Username :  admin / Password : password 
 
-- Sebagai Staff Gudang
-Username : staff
-Password : password
+- Sebagai Staff Gudang : Username : staff / Password : password
 
